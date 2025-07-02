@@ -91,5 +91,5 @@ def plot_recommendation_scores(book_title, top_n=10):
     plt.gca().invert_yaxis()
     plt.show()
 
-    
+
 plot_recommendation_scores("A Gentleman in Moscow: A Novel", top_n=5)
